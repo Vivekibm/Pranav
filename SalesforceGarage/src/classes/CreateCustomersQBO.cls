@@ -6,6 +6,7 @@ public class CreateCustomersQBO {
         return;
         }
         Map<Id, Account>accountIdMap= new Map<Id, Account>();
+        String x;//for github
         CreateCustomersQBO.CreateCustomersQBOexecuting=true;
         List<Account> acclist=[Select id,Name,QBO_Customer_Email__c,QBO_Customer_Id__c,QBO_Sync_With_Quickbooks__c,Phone,QBO_SyncToken__c,BillingAddress,BillingCity,BillingCountry,BillingPostalCode,BillingState,BillingStreet from Account where id IN:accIdSet];
         List<Account>updateAccountList= new List<Account>();
