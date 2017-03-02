@@ -51,7 +51,7 @@
 <target name="pmd">
     
     <pmd rulesetfiles="Rules/Apex Rules.xml">
-        <formatter type="html" toFile="pmd_report.html"/>
+        <formatter type="xml;" toFile="pmd_report.xml"/>
         <fileset dir="src">
             <include name="**/*.cls"/>
         </fileset>
