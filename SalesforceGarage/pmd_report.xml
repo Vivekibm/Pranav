@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.5.4" timestamp="2017-03-02T20:44:23.370">
+<pmd version="5.5.4" timestamp="2017-03-02T20:51:32.501">
 <file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\CreateCustomersQBO.cls">
 <violation beginline="4" endline="114" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
 This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
