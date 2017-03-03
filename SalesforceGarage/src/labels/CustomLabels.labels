@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>QBCompanyId</fullName>
+        <categories>Quickbooks</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>QBCompanyId</shortDescription>
+        <value>193514308977087</value>
+    </labels>
+    <labels>
+        <fullName>QBEndPoint</fullName>
+        <categories>Quickbooks</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>QBEndPoint</shortDescription>
+        <value>https://sandbox-quickbooks.api.intuit.com</value>
+    </labels>
+</CustomLabels>

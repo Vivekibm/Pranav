@@ -6,10 +6,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -18,7 +14,28 @@
     </types>
     <types>
         <members>*</members>
-        <name>StaticResource</name>
+        <members>Account.QBO_CreatedFromQBO__c</members>
+        <members>Account.QBO_Customer_Email__c</members>
+        <members>Account.QBO_SyncToken__c</members>
+        <members>Account.QBO_Sync_With_Quickbooks__c</members>
+        <members>Product2.QBO_Product_Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WebLink</name>
     </types>
     <version>36.0</version>
 </Package>

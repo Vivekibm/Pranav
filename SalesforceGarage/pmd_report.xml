@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.4" timestamp="2017-03-02T20:44:23.370">
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\CreateCustomersQBO.cls">
+<violation beginline="4" endline="114" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+</file>
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\QBOInvoiceHandlerClass.cls">
+<violation beginline="3" endline="104" begincolumn="24" endcolumn="2" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+</file>
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\QBOMockGenerator.cls">
+<violation beginline="3" endline="38" begincolumn="25" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+</file>
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\QBOSyncObjects.cls">
+<violation beginline="58" endline="162" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+<violation beginline="112" endline="112" begincolumn="21" endcolumn="22" rule="AvoidDeeplyNestedIfStmts" ruleset="Apex Rules" priority="3">
+Avoid creating deeply nested if-then statements since they are harder to read and error-prone to maintain.
+</violation>
+<violation beginline="122" endline="122" begincolumn="25" endcolumn="26" rule="AvoidDeeplyNestedIfStmts" ruleset="Apex Rules" priority="3">
+Avoid creating deeply nested if-then statements since they are harder to read and error-prone to maintain.
+</violation>
+<violation beginline="166" endline="230" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+<violation beginline="215" endline="215" begincolumn="21" endcolumn="22" rule="AvoidDeeplyNestedIfStmts" ruleset="Apex Rules" priority="3">
+Avoid creating deeply nested if-then statements since they are harder to read and error-prone to maintain.
+</violation>
+</file>
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\QBSyncCommonObjects.cls">
+<violation beginline="93" endline="154" begincolumn="24" endcolumn="5" rule="NcssMethodCount" ruleset="Apex Rules" priority="3">
+This rule uses the NCSS (Non-Commenting Source Statements) algorithm to determine the number of lines of code for a given method. NCSS ignores comments, and counts actual statements. Using this algorithm, lines of code that are split are counted as one.
+</violation>
+<violation beginline="118" endline="118" begincolumn="25" endcolumn="26" rule="AvoidDeeplyNestedIfStmts" ruleset="Apex Rules" priority="3">
+Avoid creating deeply nested if-then statements since they are harder to read and error-prone to maintain.
+</violation>
+<violation beginline="145" endline="145" begincolumn="18" endcolumn="19" rule="AvoidDeeplyNestedIfStmts" ruleset="Apex Rules" priority="3">
+Avoid creating deeply nested if-then statements since they are harder to read and error-prone to maintain.
+</violation>
+</file>
+<file name="C:\Users\IBM_ADMIN\git\SalesforceGarageDemo\SalesforceGarage\src\classes\QuickBooksUtilityClass.cls">
+<violation beginline="37" endline="47" begincolumn="28" endcolumn="5" rule="ExcessiveParameterList" ruleset="Apex Rules" priority="3">
+Methods with numerous parameters are a challenge to maintain, especially if most of them share the same datatype. These situations usually denote the need for new objects to wrap the numerous parameters.
+</violation>
+</file>
+</pmd>
