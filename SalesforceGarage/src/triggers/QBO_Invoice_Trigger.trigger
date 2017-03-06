@@ -1,6 +1,6 @@
 trigger QBO_Invoice_Trigger on QBO_Invoice__c (after insert, after update) {
     Set<Id>setofInvoiceId= new Set<Id>();
-    //for test
+    //for test1
      if(QBO_ConstantUtilityClass.createInvoicesInQBOExecuting==true)
             return;
     if((trigger.isInsert || trigger.isUpdate) && trigger.isAfter){
